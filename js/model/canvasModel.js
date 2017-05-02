@@ -316,7 +316,7 @@
 	  t=formatSeconds(t);
 	  document.getElementById("clocktime").innerHTML=t;
 			function callback(){
-				that.reset();
+				// that.reset();
 				// failed.fail();
 			}
 			//先初始化

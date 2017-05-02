@@ -266,7 +266,7 @@ input{
  * ==============================================
  */
 #canvas{
-	background:#ffffff;
+	/*background:#ffffff;*/
 	background-image: url(../images/bg2.png);
 	-webkit-background-size: 100%;
 	background-size: 100%;
@@ -296,7 +296,7 @@ input{
 }
 table{
 	width: 850px;
-	height: 1400px;
+	/*height: 1400px;*/
 	/*background-image: url(../images/game.png);*/
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
