@@ -66,6 +66,7 @@ input{
 	background-color: #fdd100;
 	border-radius: 15px;
 	color: #0055c0;
+	text-align: center;
 }
 .form button{
 	/*margin: 0 auto;*/
@@ -301,7 +302,7 @@ table{
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
-	margin-top: 17%;
+	margin-top: 19%;
 	margin-left: 9%;
 }
 #canvas table td{

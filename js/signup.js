@@ -3,7 +3,7 @@ var Player = AV.Object.extend('Player');
 function releaseNewProduct() {
   var name = $('#inputName').val();
   var number = parseFloat($('#inputNumber').val());
-  var score1 = $('#score1').text();
+  // var score1 = $('#score1').text();
   // var description = $('#inputDescription').val();
   
   // LeanCloud - 当前用户
@@ -21,13 +21,13 @@ function releaseNewProduct() {
   var player = new Player();
   player.set('name', name);
   player.set('number', number);
-  player.set('score',score1);
+  // player.set('score',score1);
   // product.set('description', description);
   // product.set('owner', AV.User.current());
   // product.set('image', avFile);
   player.save();
   // rs();
-  setInterval("rs()",500);
+  // setInterval("rs()",500);
 
 };
 

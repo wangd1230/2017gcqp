@@ -49,11 +49,11 @@
             this.storage = getLocalStorage();
         },
         
-        *
+        /**
          * 获取本地存储对象
          * @method getStorage
          * @return {Object} 本地存储对象
-         
+         */
         getStorage:function(){
             return this.storage;
         },

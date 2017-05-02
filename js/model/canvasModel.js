@@ -310,11 +310,11 @@
 		init:function(timestamp){
 			// var that = this,
 			// failed = new window.fan1xia.Failed();
-			var t;
-	  t=parseInt(document.getElementById("clock").value)+1;
-	  document.getElementById("clock").value = t;
-	  t=formatSeconds(t);
-	  document.getElementById("clocktime").innerHTML=t;
+			// var t;
+	  // t=parseInt(document.getElementById("clock").value)+1;
+	  // document.getElementById("clock").value = t;
+	  // t=formatSeconds(t);
+	  // document.getElementById("clocktime").innerHTML=t;
 			function callback(){
 				// that.reset();
 				// failed.fail();
