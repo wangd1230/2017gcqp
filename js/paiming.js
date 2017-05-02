@@ -15,7 +15,8 @@ var query = new AV.Query('Player');
 	var k =0;
 	arry.forEach(function () {
 		// body...
-		console.log(arry[i][1]);
+		console.log(arry[k][1]);
+		k +=1;
 	})
 	
     // console.log(arry[1]);
