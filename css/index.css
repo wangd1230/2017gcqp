@@ -5,6 +5,10 @@
  *{
  	-webkit-tap-highlight-color: rgba(0,0,0,0);
  }
+ @font-face{
+ 	font-family: MFQingShu_Noncommercial-Regular;
+ 	src:url(../images/MFQingShu_Noncommercial-Regular.otf);
+ }
 html,body{	
 	font-family: MFQingShu_Noncommercial-Regular;
 	width:100%;
