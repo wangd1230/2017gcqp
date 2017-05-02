@@ -144,7 +144,7 @@
 		      storage = new window.fan1xia.model.StorageModel(),
 		      key = "fan1xiaHightScoreLevel" + level, 
 		      hightScore;
-		    var timer = document.getElementById('clocktime').innerHTML;
+		    // var timer = document.getElementById('clocktime').innerHT
 		    storage.init();//初始化存储		    
 		    hightScore = storage.load(key) || 0;
 		    
@@ -157,7 +157,6 @@
 		    $score.html(scoreNum);
 		    $hightScore.html(hightScore);
 		    $level.html(level + 1);
-		    
 
 		    
 		    //添加QQ分享
