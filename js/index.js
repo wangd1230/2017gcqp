@@ -68,7 +68,7 @@
 		bindClickEvent:function(){
 			var that = this;
 			//绑定开始界面的事件
-			$('#home').delegate('button', 'click', function(e){
+			$('#home').delegate('button', 'touchstart', function(e){
 				var
 					// level = parseInt($(this).html(), 10) - 1,
 					level = 4,
@@ -79,7 +79,7 @@
 				levels = window.fan1xia.levels;
 				//添加点击效果
 				window.fan1xia.currentLevel = level;
-				$(this).addClass('click');
+				$(this).addClass('touchstart');
 				//刷新完成回调函数
 				callback = function(){
 					//刷新画布
@@ -157,6 +157,7 @@
 		    $score.html(scoreNum);
 		    $hightScore.html(hightScore);
 		    $level.html(level + 1);
+
 
 		    
 		    //添加QQ分享
