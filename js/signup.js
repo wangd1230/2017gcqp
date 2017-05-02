@@ -25,9 +25,9 @@ function releaseNewProduct() {
   // product.set('description', description);
   // product.set('owner', AV.User.current());
   // product.set('image', avFile);
-  player.save();
-  rs();
-  setInterval("rs()",1000);
+  player.save().then(rs());
+  // rs();
+   setInterval("rs()",1000);
 
 };
 
