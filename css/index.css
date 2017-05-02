@@ -27,6 +27,21 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
+#btn{
+	width: 120px;
+	height: 15px;
+	background-color: #ffffff;
+	color: #fdd100;
+	font-size: 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.start{
+	width: 100%;
+	position: relative;
+	top: 50%;
+	/*left: 10%;*/
+}
 .clock{
 	width: 100%;
 	height: 100px;
@@ -92,7 +107,7 @@ html,body{
 	background:-moz-linear-gradient(#9d5e70,#cd9191);
 	background:linear-gradient(#9d5e70, #cd9191);*/
 	display:none;
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 /**
  * 	胜利元素css
