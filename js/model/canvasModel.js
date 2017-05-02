@@ -221,7 +221,7 @@
 			};
 			
 			//绑定图片的点击事件	
-			$table.delegate('img[rel!=""]:not(.front)', 'click', function(e){
+			$table.delegate('img[rel!=""]:not(.front)', 'touchstart', function(e){
 				var 
 					$this = $(this),
 					preSrc = $preImg !==null && $preImg.attr('rel'),
