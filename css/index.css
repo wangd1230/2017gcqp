@@ -180,14 +180,14 @@ html,body{
 	height:60px;
 	border-radius:10px;
 	color:#eeeaeb;
-	font-size:36px;
+	font-size:25px;
 	font-weight:bolder;
 	-moz-box-shadow:0px 0px 20px #e2d1ec; 
 	-webkit-box-shadow:0px 0px 20px #e2d1ec; 
 	box-shadow:0px 0px 20px #e2d1ec;
 	cursor:pointer;
 	-webkit-text-stroke: 1.0px #000000;
-	text-shadow:2px 2px 5px #333333;
+	/*text-shadow:2px 2px 5px #333333;*/
 }
 #home button.click{
 	background:#c0eb00;
