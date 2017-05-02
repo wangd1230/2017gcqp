@@ -178,7 +178,7 @@
 		bindClickEvent:function(){
 			var 
 				$goHome = $('#go-home'),
-				$table = $('#canvas table'),
+				$table = $('#canvas '),
 				that = this,
 				$preImg = null,
 				sound = this.sound,
@@ -194,8 +194,8 @@
 				// $preImg.attr({src:'', rel:''});
 				// $currentImg.attr({src:'', rel:''});
 				//更新当前图象
-				$preImg = null;
-				store.pull();
+				// $preImg = null;
+				// store.pull();
 				//更新已经消除次数
 				score.decreaseRemainNumber();
 			};	
