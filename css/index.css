@@ -68,9 +68,15 @@ input{
 	color: #0055c0;
 	text-align: center;
 }
-.form button{
+.btn{
 	/*margin: 0 auto;*/
 	margin-top: 20px;
+	width: 200px;
+	height: 40px;
+	background-color:#fdd100; 
+	border-radius: 20px;
+	margin-left: 3%;
+	color: #0055c0;
 }
 /*.share-qzone{
 	width:121px;
