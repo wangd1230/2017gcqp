@@ -265,7 +265,7 @@ html,body{
 	cursor:auto
 }
 table{
-	width: 1020px;
+	width: 100%;
 }
 #canvas table td{
 	/*padding:1px 2px;*/
