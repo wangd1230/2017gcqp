@@ -191,8 +191,8 @@
 			//成功的事件
 			success = function($currentImg){
 				sound.play('./media/spread.wav');
-				$preImg.attr({src:'', rel:''});
-				$currentImg.attr({src:'', rel:''});
+				// $preImg.attr({src:'', rel:''});
+				// $currentImg.attr({src:'', rel:''});
 				//更新当前图象
 				$preImg = null;
 				store.pull();
