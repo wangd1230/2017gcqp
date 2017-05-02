@@ -285,7 +285,7 @@ input{
 	/*background:url(../images/background.gif);*/
 	/*border-radius: 5px;*/
 	width:134px;
-	height: 210px;
+	height: 220px;
 	cursor: pointer
 }
 #canvas img.front{
@@ -296,7 +296,7 @@ input{
 }
 table{
 	width: 850px;
-	height: 1500px;
+	height: 1400px;
 	/*background-image: url(../images/game.png);*/
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
