@@ -56,16 +56,16 @@
     //             'panda.gif',
     //             'elephant.gif',
     //             'haitun.gif'
-    				'p1.jpg',
-    				'p2.jpg',
-    				'p3.jpg',
-    				'p4.jpg',
-    				'p5.jpg',
-    				'p6.jpg',
-    				'p7.jpg',
-    				'p8.jpg',
-    				'p9.jpg',
-    				'p10.jpg'
+    				'p11.png',
+    				'p2.png',
+    				'p3.png',
+    				'p4.png',
+    				'p5.png',
+    				'p6.png',
+    				'p7.png',
+    				'p8.png',
+    				'p9.png',
+    				'p10.png'
             ];
         
         /**
@@ -172,7 +172,7 @@
 				_$ = $;
 				
 			for(i; i < len; i = i + 1){
-				imgsDom[i] = _$('<img src="./images/ppp.jpeg" rel="' + images[i].src + '">');
+				imgsDom[i] = _$('<img src="./images/ppp.jpg" rel="' + images[i].src + '">');
 			}
 			
 			return imgsDom;

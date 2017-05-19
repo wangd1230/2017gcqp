@@ -282,7 +282,7 @@
 		unclockRotate180:function($obj, callback){
 			$obj.delay(200).rotate3Di(-90, 150, {complete:function(){
 				var $this = $(this);
-				$this.removeClass('front').attr('src', './images/ppp.jpeg').rotate3Di(90);
+				$this.removeClass('front').attr('src', './images/ppp.jpg').rotate3Di(90);
 				$this.rotate3Di(0, 150, {complete:function(){callback();}});
 			}});
 		}
